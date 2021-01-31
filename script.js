@@ -1,4 +1,5 @@
 window.onload=function(){
+	alert("welcome");
 	var login = document.getElementById("login"),
 		user = document.getElementById("username"),
 		pass = document.getElementById("password");
