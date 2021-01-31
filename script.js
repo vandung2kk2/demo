@@ -3,7 +3,6 @@ window.onload=function(){
 		user = document.getElementById("username"),
 		pass = document.getElementById("password");
 	var inp = document.getElementsByClassName("inp");
-	user.autofocus();
 	for(let i=0; i<2;i++){
 		inp[i].addEventListener("input", function(){
 			console.log(this);
@@ -17,6 +16,7 @@ window.onload=function(){
 		if(pass.getAttribute("type") == "password"){
 			pass.setAttribute("type","text");
 			this.innerText = "Hide";
+			pass.setAttribute("autofocus", true);
 		}else{
 			pass.setAttribute("type","password");
 			this.innerText = "Show";
