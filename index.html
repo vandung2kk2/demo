@@ -1,59 +1,41 @@
-<html>
- <head> 
-  <link rel="stylesheet" href="./style.css"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-  <style>
-  	body{
-  background: #22222c;
-  padding: 200px 50px;
-}
-body > div{
-  display:flex;
-  flex-flow:row wrap;
-  align-items: stretch;
-}
-*{
-  font-size: 1.3rem;
-}
-#inp{
-  outline: none;
-  border: solid 4px #0099ff;
-  border-radius: 4px;
-  background:rgba(255,255,255,0.1);
-  padding: 22px 29px;
-  color: #fafafa;
-  flex-basis: 100%;
-  margin-bottom: 30px;
-}
-#submit, #reload{
-  outline: none;
-  border:none;
-  padding: 20px 32px;
-  border-radius:0.2em;
-  background: linear-gradient(120deg, #59afff, #148cfc);
-  color: #fafafa;
-  flex-basis: calc(50% - 10px);
-}
-#gap{
-  flex-basis:20px;  
-}
-#submit{
-  
-}
-#reload{
-  background: transparent;
-  border: solid 4px #0099ff;
-  color:#0099ff;
-}
-</style> 
- </head> 
- <body> 
-  <div> 
-   <input type="text" id="inp" value="Some Text"> 
-   <button id="submit">Submit</button> 
-   <div id="gap"></div> 
-   <button id="reload">Reload</button> 
-  </div> 
-  <script></script> 
- </body>
+<html lang="vi">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<div id="header"></div>
+	<div id="body">
+		<div id="" class=""></div>
+		<div id="form" class="">
+			<label>
+				<input type="text" id="username" class="inp" autofocus>
+				<div id="" class="placeholder">Username</div>
+			<label>
+			<label>
+				<input type="password" id="password" class="inp">
+				<div id="" class="placeholder">Password</div>
+			<label>
+			<div id="others" class="">
+				<a href="#" class="forget">Forget password</a>
+				<div id="show">Show</div>
+				<div></div>
+			</div>
+			<div id="login" class="btn">
+				Login
+			</div>
+			<div id="separator">
+				<div class="dash"></div>
+				<div style="color: #66666c; font-size: 0.9rem">Or</div>
+				<div class="dash"></div>
+			</div>
+			<div id="reg" class="btn">
+				Create an account
+			</div>
+		</div>
+		<div id="" class=""></div>
+	</div>
+	<div id="footer"></div>
+	<script src="script.js"></script>
+</body>
 </html>
