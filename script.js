@@ -16,7 +16,6 @@ window.onload=function(){
 		if(pass.getAttribute("type") == "password"){
 			pass.setAttribute("type","text");
 			this.innerText = "Hide";
-			pass.setAttribute("autofocus", true);
 		}else{
 			pass.setAttribute("type","password");
 			this.innerText = "Show";
